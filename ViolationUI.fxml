@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <AnchorPane prefHeight="1100.0" prefWidth="1280.0">
+               <children>
+                  <Label layoutX="127.0" layoutY="36.0" text="Violation &amp; Enforcement">
+                     <font>
+                        <Font name="System Bold" size="40.0" />
+                     </font>
+                  </Label>
+                  <Line endX="861.6666259765625" layoutX="329.0" layoutY="94.0" startX="-242.33334350585938" strokeWidth="3.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="123.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NON-PAYMENT OF RENT">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="136.0" layoutY="163.0" prefHeight="74.0" prefWidth="985.0" text="If rent is not paid within the month, the tenant will receive a notice. Continued non-payment may lead to legal action or eviction. Tenants should inform the landlord right away if there are payment problems." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="265.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="123.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROPERTY DAMAGE">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="136.0" layoutY="304.0" prefHeight="74.0" prefWidth="985.0" text="If a tenant damages the property, the cost will appear in the next bill. The tenant must pay for it as part of that billing. If not paid, the cost may be deducted from the deposit when moving out." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="407.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="123.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ILLEGAL ACTIVITIES">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="136.0" layoutY="445.0" prefHeight="74.0" prefWidth="985.0" text="Doing illegal acts in the property is strictly not allowed. This can cause immediate termination of the lease. The landlord may take legal action if needed." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="537.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="123.0" layoutY="562.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DISTURBANCES">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="136.0" layoutY="576.0" prefHeight="74.0" prefWidth="985.0" text="Causing loud noise or disturbing others is not allowed. If there are repeated complaints, the landlord may give a warning or end the lease. Respecting others helps keep a peaceful living environment." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="672.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="123.0" layoutY="698.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" BREECH OF AGREEMENT">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="136.0" layoutY="711.0" prefHeight="74.0" prefWidth="985.0" text="If the tenant breaks any rule in this policy or the lease, the deposit may be affected. The landlord will send a written notice explaining what went wrong. The tenant must fix the issue to avoid further action." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="805.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="122.0" layoutY="830.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOTICE OF VIOLATION">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="136.0" layoutY="844.0" prefHeight="74.0" prefWidth="985.0" text="Tenants will always get a written notice before any penalty or action. The notice will explain the problem and give time to correct it. Ignoring the notice may result in eviction." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="938.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="123.0" layoutY="964.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EVICTION">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="146.0" layoutY="978.0" prefHeight="74.0" prefWidth="985.0" text="The landlord may evict tenants who break rules or cause serious problems. Eviction will follow legal steps to keep things fair. Once evicted, the tenant must leave the property." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
