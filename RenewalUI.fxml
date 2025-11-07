@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #F5F5F5;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" prefHeight="800.0" prefWidth="200.0" style="-fx-background-color: #F5F5F5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <AnchorPane prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #F5F5F5;">
+               <children>
+                  <Label layoutX="127.0" layoutY="36.0" text="Terms and Renewal Conditions">
+                     <font>
+                        <Font name="System Bold" size="40.0" />
+                     </font>
+                  </Label>
+                  <Line endX="861.6666259765625" layoutX="329.0" layoutY="94.0" startX="-242.33334350585938" strokeWidth="3.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="117.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LEASE DURATION">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="150.0" layoutY="162.0" prefHeight="63.0" prefWidth="988.0" text="Each lease has a start and end date. Tenants are expected to stay for the full lease period. Leaving early without notice may cause issues with the security deposit." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="252.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="117.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RENEWAL">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="150.0" layoutY="289.0" prefHeight="63.0" prefWidth="988.0" text="Tenants who wish to continue renting must inform the landlord before the lease ends. Renewal may come with updated details agreed by both sides. A new lease period will begin after the current one ends." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="380.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="117.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NON-RENEWAL">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="150.0" layoutY="418.0" prefHeight="97.0" prefWidth="988.0" text="If the tenant chooses not to renew, they must leave the property by the end date. Staying longer without permission may lead to extra daily charges. The landlord must be informed before move out for inspection and clearance." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="545.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="117.0" layoutY="571.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EARLY TERMINATION">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="150.0" layoutY="584.0" prefHeight="69.0" prefWidth="988.0" text="If the tenant ends the lease early, the deposit may be used to pay for any unpaid rent or charges. The tenant must give notice before moving out to help with proper turnover." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
