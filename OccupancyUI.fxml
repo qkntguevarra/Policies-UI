@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #F5F5F5;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <AnchorPane prefHeight="1100.0" prefWidth="1280.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Label layoutX="127.0" layoutY="36.0" text="Occupancy and Use Rules">
+                     <font>
+                        <Font name="System Bold" size="40.0" />
+                     </font>
+                  </Label>
+                  <Line endX="861.6666259765625" layoutX="329.0" layoutY="94.0" startX="-242.33334350585938" strokeWidth="3.0" />
+                  <Text layoutX="122.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AUTHORIZED OCCUPANTS">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="139.0" layoutY="165.0" prefHeight="63.0" prefWidth="1003.0" text="Only the people listed in the lease may live in the property. The tenant must tell the landlord if another person wants to stay. Allowing others without permission is not allowed. Maximum of three (3) occupants only." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="258.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="122.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROPERTY CARE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="139.0" layoutY="296.0" prefHeight="63.0" prefWidth="1003.0" text="Tenants must keep the property clean and in good condition. Damages caused by carelessness will be charged to the tenant. Regular cleaning and care help maintain the property." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="388.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="122.0" layoutY="412.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REPAIRS AND MAINTENANCE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="139.0" layoutY="427.0" prefHeight="63.0" prefWidth="1003.0" text="Major repairs are handled by the landlord unless the tenant caused the damage. Tenants should report problems like leaks or broken items right away. Ignoring repairs can cause more damage and extra cost." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="515.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="122.0" layoutY="539.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALTERATIONS">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="139.0" layoutY="553.0" prefHeight="63.0" prefWidth="1003.0" text="Tenants cannot change or add anything to the property without permission. This includes painting, drilling holes, or replacing items. Any unapproved changes must be fixed before move out." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="644.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="123.0" layoutY="668.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOISE AND CONDUCT">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="139.0" layoutY="683.0" prefHeight="63.0" prefWidth="1003.0" text="Tenants should keep noise at a low level and respect neighbors. Loud music, parties, or shouting are not allowed. Continued disturbance can lead to warnings or lease cancellation." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="774.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="123.0" layoutY="797.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PETS">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="139.0" layoutY="814.0" prefHeight="63.0" prefWidth="1003.0" text="Pets are not allowed inside the property. Tenants must not bring or keep any animals without permission. Bringing pets may lead to warnings or lease termination." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="905.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="123.0" layoutY="933.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USE OF PROPERTY">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="139.0" layoutY="944.0" prefHeight="63.0" prefWidth="1003.0" text="The property is for living purposes only. It cannot be used for business or illegal activities. Breaking this rule may cause eviction." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
