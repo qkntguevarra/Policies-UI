@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #F5F5F5;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <AnchorPane prefHeight="1100.0" prefWidth="1280.0" style="-fx-background-color: #F5F5F5;">
+               <children>
+                  <Label layoutX="127.0" layoutY="36.0" text="Financial Terms">
+                     <font>
+                        <Font name="System Bold" size="40.0" />
+                     </font>
+                  </Label>
+                  <Line endX="861.6666259765625" layoutX="329.0" layoutY="94.0" startX="-242.33334350585938" strokeWidth="3.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="117.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RENT PAYMENTS" wrappingWidth="225.45762634277344">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="132.0" layoutY="161.0" prefHeight="67.0" prefWidth="1016.0" text="Rent must be paid in full on or before the due date each month. Accepted payment methods include cash, bank transfer, or e-wallets (GCash &amp; PayMaya). Tenants are responsible for ensuring payments are made on time." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="260.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="117.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SECURITY DEPOSIT" wrappingWidth="225.45762634277344">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="132.0" layoutY="298.0" prefHeight="183.0" prefWidth="1016.0" text="A refundable security deposit is required before moving in. This deposit is separate from the monthly rent and is not applied to regular payments. Any property damages caused by the tenant will be charged in the monthly billing statement, along with rent and utility fees. The deposit will only be used to cover unpaid damages or outstanding balances upon moving out. After the tenant vacates the property, an inspection will be conducted, and any deductions will be detailed in the final statement. The remaining balance of the deposit will then be refunded. If there are no damages or unpaid charges, the full deposit amount will be returned." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="517.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="117.0" layoutY="542.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADVANCED PAYMENT" wrappingWidth="298.79100036621094">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="132.0" layoutY="555.0" prefHeight="94.0" prefWidth="1016.0" text="An advance payment, usually equal to one month’s rent, is also required before moving in. This amount is not the same as the security deposit. It serves as prepaid rent and will be applied to the first month or last month of the tenant’s stay, depending on the lease agreement. Advance payments are non-refundable once applied as rent." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="680.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="117.0" layoutY="705.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UTILITIES" wrappingWidth="298.79100036621094">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="132.0" layoutY="718.0" prefHeight="65.0" prefWidth="1016.0" text="Tenants are responsible for paying their own water, electricity, gas, and internet bills, unless the lease states they are included in the rent." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="809.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="117.0" layoutY="834.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REFUNDS" wrappingWidth="298.79100036621094">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="132.0" layoutY="848.0" prefHeight="32.0" prefWidth="1016.0" text="Refunds are only given for overpayments or after move out, once all balances and inspections are cleared." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3e2cd" height="33.0" layoutX="100.0" layoutY="913.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1076.0" />
+                  <Text layoutX="117.0" layoutY="939.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAYMENT RECORDS" wrappingWidth="298.79100036621094">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="132.0" layoutY="952.0" prefHeight="32.0" prefWidth="1016.0" text="All payments are recorded in the system. Tenants can view their receipts and payment history anytime." wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
